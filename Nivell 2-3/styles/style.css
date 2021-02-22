@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    background: rgb(101,94,214);
+    background: linear-gradient(90deg, rgba(101,94,214,1) 0%, rgba(26,127,136,1) 50%, rgba(0,212,255,1) 100%);
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    padding-top: 2.5rem;
+}
+
+button {
+    font-size: 1em;
+    margin-top: 1.5rem;
+    height: 3rem;
+}
+
+p {
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    height: 2rem;
+    align-self: center;
+}
